@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_anotacao"
+            android:icon="@drawable/ic_note_add_white_24dp"
+            android:title="Agenda" />
+        <item
+            android:id="@+id/nav_biblioteca"
+            android:icon="@drawable/ic_import_contacts_white_24dp"
+            android:title="Biblioteca" />
+
+        <item
+            android:id="@+id/nav_acompanhamento"
+            android:icon="@drawable/ic_create_white_24dp"
+            android:title="Rendimento" />
+
+    </group>
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/nav_meu_perfil"
+                android:icon="@drawable/ic_account_circle_white_24dp"
+                android:title="Meu Perfil" />
+            <item
+                android:id="@+id/nav_meus_livros"
+                android:icon="@drawable/ic_book_white_24dp"
+                android:title="Meus Livros" />
+            <item
+                android:id="@+id/nav_sair"
+                android:icon="@drawable/ic_power_settings_new_white_24dp"
+                android:title="Sair"
+                android:onClick="sair"
+                />
+        </menu>
+    </item>
+
+</menu>
